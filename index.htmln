@@ -39,13 +39,19 @@ researchs:
 
 {% endcomment %}
 
+
 <!-- Banner -->
 	<section id="banner">
 		<div class="content">
 			<header>
-				<h1 style="font-size: 2.4em; font-family: Bodoni, 'Microsoft YaHei', SimHei;">About the Lab</h1>
+				<h1 style="font-size: 2.4em; font-family: Bodoni, 'Microsoft YaHei', SimHei;">Sangmin Yoo (유상민)</h1>
 			</header>
 
+			<ul class="icons">
+				<li><a href="https://www.linkedin.com/in/smy1/" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+				<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="https://github.com/ZiyuWang11" class="icon brands fa-github"><span class="label">Github</span></a></li>
+			</ul>
 			<p style="font-size: 1.1em;">I am a 4th-year PhD candidate in Electrical and Computer Enginnering at the University of Michigan, Ann Arbor.
 				I received my bachelor degree of Enginnering from Tsinghua University.  <br>
 				I will always be passinate about exploring something brand new in my life and research. <br>
