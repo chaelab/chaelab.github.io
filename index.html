@@ -15,12 +15,7 @@ posts:
   excerpt: Novel semiconductors with high-mobility and low-process temperature are developed for monolithic 3D integration .
   url: "./research.html#scagan"
 
-researchs:
-- image: /images/02-lugroup.jpg
-  excerpt: Lu Group @2019.
-- image: /images/03-RRAM.jpg
-  excerpt: RRAM Chip.
----
+
 
 {% comment %}
 
@@ -58,6 +53,13 @@ researchs:
 		</span>
 	</section>
 
+<!-- Section -->
+	<section>
+		<header class="major", id="research">
+			<h2>Featured Research</h2>
+		</header>
+		{% include components/posts.html posts=page.posts %}
+	</section>
 
 
 <!-- Section -->
@@ -85,11 +87,4 @@ researchs:
 		</p>
 	</section>
 
-<!-- Section -->
-	<section>
-		<header class="major", id="research">
-			<h2>Featured Research</h2>
-		</header>
-		{% include components/posts.html posts=page.posts %}
-	</section>
 
