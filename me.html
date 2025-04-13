@@ -23,6 +23,29 @@ layout: page
 </header>
 
 
+<style>
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: left
+}
+img {
+  max-width: 100%;
+  max-height:100%;
+}
+.image {
+	width: 350px;
+	height: auto;
+<!--	margin-left: 20px;-->
+<!--	margin-right: 20px;-->
+}
+.text {
+	margin-left: 40px;
+<!--  font-size: 20px;-->
+<!--  padding-left: 20px;-->
+}
+</style>
+
 <!-- Section -->
 	<section>
 		<header class="major", id="education">
@@ -56,15 +79,21 @@ layout: page
 		<header class="major", id="education">
 			<h2>Students</h2>
 		</header>
-	
-		<h2> Dipannita Ghosh </h2>
-		<img src="{{ site.baseurl }}/images/photo_Dipannita.jpg" width=20% height=20%>
-		<h4 style="margin: 7px; color: #00274c;">Dipannita is a Ph.D. candidate in Electrical and Computer Engineering, Oregon State University. She obtained her B.S. in EEE from Bangladesh University of Engineering & Technology (BUET).
-		After that, she earned M.S. in ECE from the University of Texas Rio Grande Valley (UTRGV). 
-		Her research project includes the development of a predictive model using machine learning techniques, synthesis of oxide thin films using
-		pulsed laser deposition, and characterization of materials. In her free time, she enjoys painting, making desserts, and traveling.</h4>
-		<h4 style="margin: 7px; color: #82318E; font-size: 1.75em"> </h4>
-			
+
+		<div class="container">
+      			<div class="image">
+        			<img src="{{ site.baseurl }}/images/photo_Dipannita.jpg">
+      			</div>
+      			<div class="text">
+				<h2> Dipannita Ghosh </h2>
+				<h4 style="margin: 7px; color: #00274c;">Dipannita is a Ph.D. candidate in Electrical and Computer Engineering, Oregon State University. She obtained her B.S. in EEE from Bangladesh University of Engineering & Technology (BUET).
+				After that, she earned M.S. in ECE from the University of Texas Rio Grande Valley (UTRGV). 
+				Her research project includes the development of a predictive model using machine learning techniques, synthesis of oxide thin films using
+				pulsed laser deposition, and characterization of materials. In her free time, she enjoys painting, making desserts, and traveling.</h4>
+				<h4 style="margin: 7px; color: #82318E; font-size: 1.75em"> </h4>
+      			</div>
+    		</div>
+		
 		<br/><br/>
 
 		<h2> Yen-Chun Huang </h2>
